@@ -4,7 +4,7 @@ According to their documentation:
 
 > CodeFactor instantly performs Code Review with every GitHub Commit or PR. Zero setup time. Get actionable feedback within seconds. Customize rules, get refactoring tips and ignore irrelevant issues.
 
-In addition to automated code review, CodeFactor also has autofix functionality, which is pretty cool.
+In addition to automated code review, CodeFactor also has auto-fix functionality, which is pretty cool.
 
 For Rails apps specifically, CodeFactor can check:
 
@@ -47,7 +47,7 @@ Your code should now be online in your repo.
 
 ### Configuration
 
-Navigate to [codefactor.io](codefactor.io) and login with your preferred method. I chose to use my GitHub account.
+Navigate to [codefactor.io](codefactor.io) and log in with your preferred method. I chose to use my GitHub account.
 
 ![codefactor_landing_page_1](https://dev-to-uploads.s3.amazonaws.com/i/kpmyaynxl27u2wj7m0c8.jpg)
 
@@ -73,7 +73,7 @@ If we click on our repo, we will be taken to a show page for our repo:
 
 ![codefactor_project_page_5](https://dev-to-uploads.s3.amazonaws.com/i/4z3mam2v9268hv5jpgng.jpg)
 
-From here you can look at information pertaining to your repository and configure settings for the tools CodeFactor will use to check your repo.
+From here you can look at information about your repository and configure settings for the tools CodeFactor will use to check your repo.
 
 ### README Badge
 
@@ -83,11 +83,11 @@ If we would like to add the CodeFactor README badge to our project, click the ba
 
 This will open a modal with a few format options for our badge. I simply copied the markdown code and pasted it on my README.
 
-This badge should update as your code quality changes and be reflected on your README.
+This badge should update as your code quality changes according to CodeFactor.
 
 ## Summary
 
-CodeFactor is a neat tool if you'd like to run some standard linters on your Rails project, like Rubocop and ESLint. The unfortunate part is that it doesn't look like you can add in tools other than the ones provided. The autofix functionality is really helpful if you'd not only like to run the linters, but add a commit to the branch that fails checks.
+CodeFactor is a neat tool if you'd like to run some standard linters on your Rails project, like Rubocop and ESLint. The unfortunate part is that it doesn't look like you can add in tools other than the ones provided. The auto-fix functionality is really helpful if you'd not only like to run the linters but add a commit to the branch that fails checks.
 
 Overall, I think this is a tool worth checking out. However, since I don't personally use the available tools for Rails projects, it wasn't as helpful to me personally as I hoped. Hopefully you will find different!
 
@@ -99,3 +99,5 @@ Overall, I think this is a tool worth checking out. However, since I don't perso
 - [CodeFactor Default Configs](https://github.com/codefactor-io/default-configs)
 
 Happy coding!
+
+P.S. If you aren't sure how to set up ESLint, Rubocop, or the other listed linters, leave a comment or message me on [Twitter](https://twitter.com/andrewmcodes) and let me know if you'd like a post about this!
