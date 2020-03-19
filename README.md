@@ -1,5 +1,7 @@
 # README
 
+[![CodeFactor](https://www.codefactor.io/repository/github/andrewmcodes/codefactor_demo/badge)](https://www.codefactor.io/repository/github/andrewmcodes/codefactor_demo)
+
 ## Install
 
 ### Clone the repository
