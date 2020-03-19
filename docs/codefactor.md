@@ -1,4 +1,19 @@
-# CodeFactor
+# [CodeFactor](https://codefactor.io)
+
+According to their documentation:
+
+> CodeFactor instantly performs Code Review with every GitHub Commit or PR. Zero setup time. Get actionable feedback within seconds. Customize rules, get refactoring tips and ignore irrelevant issues.
+
+In addition to automated code review, CodeFactor also has autofix functionality, which is pretty cool.
+
+For Rails apps specifically, CodeFactor can check:
+
+- Yamllint
+- ESLint
+- stylelint
+- Rubocop
+
+If this sounds interesting, let's look at how to set this up.
 
 ## Tutorial
 
@@ -38,7 +53,7 @@ Navigate to [codefactor.io](codefactor.io) and login with your preferred method.
 
 Once logged in, you should be taken to your dashboard.
 
-### Test it out
+### Add Repository
 
 Let's add a new repository. From your CodeFactor dashboard, click `Add`, next to `Repositories`:
 
@@ -58,7 +73,7 @@ If we click on our repo, we will be taken to a show page for our repo:
 
 ![codefactor_project_page_5](images/codefactor_project_page_5.jpg)
 
-_more on what's on this page_
+From here you can look at information pertaining to your repository and configure settings for the tools CodeFactor will use to check your repo.
 
 ### README Badge
 
@@ -72,10 +87,15 @@ This badge should update as your code quality changes and be reflected on your R
 
 ## Summary
 
-_summary_
+CodeFactor is a neat tool if you'd like to run some standard linters on your Rails project, like Rubocop and ESLint. The unfortunate part is that it doesn't look like you can add in tools other than the ones provided. The autofix functionality is really helpful if you'd not only like to run the linters, but add a commit to the branch that fails checks.
+
+Overall, I think this is a tool worth checking out. However, since I don't personally use the available tools for Rails projects, it wasn't as helpful to me personally as I hoped. Hopefully you will find different!
 
 ### Helpful links
 
-_links_
+- [CodeFactor](https://www.codefactor.io)
+- [Demo repo](https://github.com/andrewmcodes/codefactor_demo)
+- [CodeFactor show page for demo repo](https://www.codefactor.io/repository/github/andrewmcodes/codefactor_demo)
+- [CodeFactor Default Configs](https://github.com/codefactor-io/default-configs)
 
 Happy coding!
